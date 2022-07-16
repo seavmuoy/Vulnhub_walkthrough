@@ -1,0 +1,16 @@
+** >ifconifg to know our linux ip
+
+Step1: Get target machine ip address
+>sudo netdiscover -r /specific ip address
+
+Step2: Scan to open ports
+>sudo nmap target ip 
+.
+>sudo nmap -v -T4 -A -p- -oN nmap.log target ip
+
+- after done either of these option it will tell us that there's a DNS service that running on port 53 and two HTTP servers running on ports 80 and 9999
+- check the server that running on port 80 on browser
+
+
+Step3: 
+
