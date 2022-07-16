@@ -1,4 +1,4 @@
-** >ifconifg to know our linux ip
+** >ifconifg to know our kali linux ip
 
 Step1: Get target machine ip address
 >sudo netdiscover -r /specific ip address
